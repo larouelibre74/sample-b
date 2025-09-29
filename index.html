@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>La roue libre — Technicien confirmé</title>
+  <meta name="description" content="Entretien et réparation de vélos à domicile — révisions, freins, vélos électriques, pièces et service rapide. Appelez pour un rdv." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #fdf6e3; color: #1e3a8a; }
+    header, footer { background-color: #fffaf0; }
+    .hero-bg {background:linear-gradient(90deg,rgba(0,0,0,0.45),rgba(0,0,0,0.15)),url('hero-bike.jpg') center/cover no-repeat}
+    .price-category { margin-top: 1.5rem; }
+    .price-category h3 { font-weight: bold; margin-bottom: 0.5rem; color:#1e3a8a; }
+    .price-item { display:flex; justify-content:space-between; padding:0.25rem 0; border-bottom:1px dotted #ccc; }
+  </style>
+</head>
+<body class="antialiased">
+  <header class="shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="https://i.ibb.co/GQzZJvr9/larouelibre-logo.png" alt="Logo La Roue Libre" class="w-16 h-16 rounded-full" />
+        <div>
+          <h1 class="text-xl font-semibold">La Roue Libre</h1>
+          <p class="text-xs">Entretien et réparation de vélo
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#pricing" class="hover:underline">Tarifs</a>
+        <a href="#about" class="hover:underline">À propos</a>
+        <a href="#contact" class="text-white bg-blue-600 px-4 py-2 rounded-md">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-bg py-20 text-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="bg-black/30 p-8 rounded-lg max-w-2xl">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Réparations vélo rapides et conviviales — près de chez vous</h2>
+        <p class="mt-3">Révisions, réglages, diagnostics, pièces détachées. Devis gratuit sous 24h.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="bg-white text-blue-700 px-4 py-2 rounded-md font-semibold">Réserver</a>
+          <a href="#pricing" class="border border-white px-4 py-2 rounded-md">Voir les tarifs</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="max-w-6xl mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold">Nos services</h3>
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Révision Ballade 45 € (60 € pour un VAE)</h4>
+        <p class="text-sm mt-2">Réglage vitesses, freins, dévoilage des roues et contrôle des points de sécurité.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Révision Entrainement 60 € (80 € pour un VAE)</h4>
+        <p class="text-sm mt-2">Révision ballade + nettoyage complet et lubrification de la transmission.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Révision Compétition 90 € (120 € pour un VAE)</h4>
+        <p class="text-sm mt-2">Révision Entrainement + graissage jeu de direction et boitier.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="max-w-6xl mx-auto px-6 py-8">
+    <h3 class="text-2xl font-bold">Tarifs Atelier</h3>
+    <div class="mt-4 bg-white p-6 rounded-lg shadow-sm">
+      <div class="price-category">
+        <h3>TRANSMISSION</h3>
+        <div class="price-item"><span>Changement de patte de dérailleur (*)</span><span>10 €</span></div>
+        <div class="price-item"><span>Changement de chaîne (*)</span><span>10 €</span></div>
+        <div class="price-item"><span>Changement de cassette (*)</span><span>10 €</span></div>
+        <div class="price-item"><span>Changement d’un câble (*)</span><span>15 €</span></div>
+        <div class="price-item"><span>Dégauchissage de patte</span><span>15 €</span></div>
+        <div class="price-item"><span>Changement pédalier/plateau (*)</span><span>15 €</span></div>
+        <div class="price-item"><span>Changement câble + gaine (*)</span><span>20 €</span></div>
+        <div class="price-item"><span>Changement boîtier de pédalier (*)</span><span>20 €</span></div>
+      </div>
+      <div class="price-category">
+        <h3>POSTE DE PILOTAGE</h3>
+        <div class="price-item"><span>Changement guidoline (*)</span><span>20 €</span></div>
+        <div class="price-item"><span>Changement cintre plat (*)</span><span>20 €</span></div>
+        <div class="price-item"><span>Changement levier de vitesses VTT (*)</span><span>20 €</span></div>
+        <div class="price-item"><span>Changement cintre route (câbles externe)</span><span>30 €</span></div>
+        <div class="price-item"><span>Changement jeu de direction (*)</span><span>30 €</span></div>
+        <div class="price-item"><span>Nettoyage + graissage jeu de direction</span><span>20 €</span></div>
+        <div class="price-item"><span>Changement poignée Route (*)</span><span>30 €</span></div>
+        <div class="price-item"><span>Changement cintre route (câbles interne)</span><span>50 €</span></div>
+      </div>
+      <div class="price-category">
+        <h3>FOURCHE / CADRE</h3>
+        <div class="price-item"><span>Changement tige de selle</span><span>10 €</span></div>
+        <div class="price-item"><span>Changement de fourche</span><span>20 €</span></div>
+        <div class="price-item"><span>Montage vélo complet (*)</span><span>150 €</span></div>
+      </div>
+      <div class="price-category">
+        <h3>DIVERS</h3>
+        <div class="price-item"><span>Opération spécifique/minute</span><span>1 €/min</span></div>
+        <div class="price-item"><span>Devis visuel gratuit</span></div>
+      </div>
+      <p class="text-xs mt-2">* Hors pièces détachées.</p>
+    </div>
+  </section>
+
+  <section id="about" class="max-w-6xl mx-auto px-6 py-8">
+    <div class="bg-white p-6 rounded-lg shadow-sm">
+      <h3 class="text-xl font-bold">À propos de La Roue Libre</h3>
+      <p class="mt-3">Technicien confirmé avec 12 ans d'expérience, pièces neuves et d’occasion, enlèvement/livraison à la demande.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="max-w-6xl mx-auto px-6 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold text-lg">Contact & Horaires</h4>
+        <p class="mt-1">Téléphone : <a href="tel:+33769261791" class="text-blue-600">+33 7 69 26 17 91</a></p>
+        <p class="mt-1">7j/7</p>
+        <div class="mt-4">
+          <a href="mailto:larouelibre.74@gmail.com" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-md">Nous écrire</a>
+          <a href="#" class="ml-3 inline-block border px-4 py-2 rounded-md">Réserver en ligne</a>
+        </div>
+        <p class="text-xs mt-4"> TVA: appliquée sur tous les tarifs communiqués</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h4 class="font-semibold">Réservation rapide</h4>
+        <form action="mailto:larouelibre.74@gmail.com" method="POST" enctype="text/plain" class="space-y-3">
+          <input required name="name" placeholder="Votre nom" class="w-full border p-2 rounded" />
+          <input required name="phone" placeholder="Téléphone" class="w-full border p-2 rounded" />
+          <input required name="service" placeholder="Service souhaité" class="w-full border p-2 rounded" />
+          <textarea name="notes" placeholder="Précisions" class="w-full border p-2 rounded h-24"></textarea>
+          <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Envoyer la demande</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="border-t mt-8">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col items-center justify-center text-xs text-center">
+      <div>© 2025 La Roue Libre — Tous droits réservés.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
